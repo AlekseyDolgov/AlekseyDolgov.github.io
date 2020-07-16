@@ -1,0 +1,78 @@
+*{
+	margin: 0px;
+	padding: 0px;
+} /*нулевая ширина*/
+
+header, section, footer, aside, nav, article, figure, figcaption, hgroup {
+	display: block;
+} /*определение структурных элементов*/
+
+body {
+	text-align: center;
+} /*выравнивание тела документа*/
+
+h1 {
+	font: bold 20px verdana, sans-serif;
+}
+h2 {
+	font: bold 14px verdana, sans-serif;
+}
+
+#wrapper {
+	width: 960px; /*ширина*/
+	margin: 15px auto; /*автоматический размер*/
+	text-align: left; /*выравнивает тело*/
+}
+
+#main_header{
+	background: #FFFBB9; /*окраска фона*/
+	border: 1px solid #999999; /*ширина и окраска рамки*/
+	padding: 10px; /*ширина рамки*/
+}
+
+#main_menu {
+	background: #CCCCCC; /*окраска фона*/
+	padding: 5px 15px; /*ширина рамки*/
+}
+#main_menu li {
+	display: inline-block; /*преврощение в строчной блок*/
+	list-style: none;
+	padding: 5px;
+	font: bold 14px verdana, sans-serif;
+}
+
+#main_section {
+	float: left; /*премещение блоков*/
+	width: 660px; /*ширина*/
+	margin: 20px
+}
+#main_aside {
+	float: left; /*премещение блоков*/
+	width: 220px; /*ширина*/
+	margin: 20px 0px;
+	padding: 20px; /*ширина рамки*/
+	background: #CCCCCC; /*окраска фона*/
+}
+
+#main_footer {
+	clear: both; /*заставляет ограничиваться размером реально области экрана*/
+	text-align: center; /*выравнивание текста по центру*/
+	padding: 20px; /*ширина рамки*/
+	border: 2px solid #999999; /*оскраска рамки*/
+}
+/*последние шьрихи*/
+article {
+	background: #FFFBCC; /*окраска фона*/
+	border: 1px solid #999999; /*оскраска рамки и ее ширина*/
+	padding: 20px; /*ширина рамки*/
+	margin-bottom: 15px; /*размер*/
+}
+article footer {
+	text-align: right; /*выравнивание текста в право*/
+}
+time {
+	color: #999999; /*цвет*/
+}
+figcaption {
+	font: italic 14px verdana, sans-serif;
+}
